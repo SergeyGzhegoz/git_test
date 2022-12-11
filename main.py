@@ -1,10 +1,10 @@
 from math import pi
 
 class Circle:
-    def __init__(self, r):
-        self._r = r
+    def __init__(self, rr):
+        self._r = rr
     
-    def area(self):
+    def areaa(self):
         return pi * (self._r ** 2)
 
 
