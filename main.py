@@ -19,6 +19,14 @@ class Rectangle:
         self._b = b
 
 
+class Circle:
+    def __init__(self, r):
+        self._r = r
+    
+    def area(self):
+        return pi * (self._r ** 2)
+
+
 main_rect = Rectangle(5, 4)
 print(main_rect.area())
 main_rect.set_height(7)
